@@ -12,8 +12,8 @@ import { transactionRefundRequestedSyncWebhook } from "./webhooks/saleor/transac
 export default createManifestHandler({
   async manifestFactory(context) {
     const manifest: AppManifest = {
-      id: "app.saleor.stripex",
-      name: "StripeX",
+      id: "app.jibe.stripe",
+      name: "Stripe Jibe",
       about: packageJson.description,
       tokenTargetUrl: `${context.appBaseUrl}/api/register`,
       appUrl: `${context.appBaseUrl}`,
