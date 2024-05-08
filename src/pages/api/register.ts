@@ -11,5 +11,5 @@ import { saleorApp } from "../../saleor-app";
  */
 export default createAppRegisterHandler({
   apl: saleorApp.apl,
-  allowedSaleorUrls: ["https://orium-composable.saleor.cloud/graphql/"],
+  allowedSaleorUrls: ["orium-composable.saleor.cloud/graphql/"],
 });
