@@ -12,7 +12,7 @@ import { transactionRefundRequestedSyncWebhook } from "./webhooks/saleor/transac
 export default createManifestHandler({
   async manifestFactory(context) {
     const manifest: AppManifest = {
-      id: "app.jibe.payment",
+      id: "jibe.payment",
       name: "Payment Jibe",
       about: packageJson.description,
       tokenTargetUrl: `${context.appBaseUrl}/api/register`,
