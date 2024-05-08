@@ -20,8 +20,8 @@ export default createManifestHandler({
       permissions: ["HANDLE_PAYMENTS"],
       version: packageJson.version,
       requiredSaleorVersion: ">=3.14.0",
-      homepageUrl: "https://github.com/saleor/saleor-app-payment-stripe",
-      supportUrl: "https://github.com/saleor/saleor-app-payment-stripe/issues",
+      homepageUrl: "https://github.com/albertojuniorhc/saleor-app-payment-stripe",
+      supportUrl: "https://github.com/albertojuniorhc/saleor-app-payment-stripe/issues",
       brand: {
         logo: {
           default: `${context.appBaseUrl}/logo.png`,

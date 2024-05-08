@@ -4,11 +4,11 @@
   "description": "Saleor App Payment Stripe is a payment integration app that allows merchants using the Saleor e-commerce platform to accept online payments from customers using Stripe as their payment processor.",
   "version": "0.4.0",
   "private": true,
-  "repository": "github:saleor/saleor-app-payment-stripe",
-  "homepage": "https://github.com/saleor/saleor-app-payment-stripe",
+  "repository": "github:albertojuniorhc/saleor-app-payment-stripe",
+  "homepage": "https://github.com/albertojuniorhc/saleor-app-payment-stripe",
   "bugs": {
-    "url": "https://github.com/saleor/saleor-app-payment-stripe/issues",
-    "email": "hello@saleor.io"
+    "url": "https://github.com/albertojuniorhc/saleor-app-payment-stripe/issues",
+    "email": "albertojr@thejibe.com"
   },
   "type": "module",
   "scripts": {
